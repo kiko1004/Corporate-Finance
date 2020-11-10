@@ -325,5 +325,10 @@ body {
     .u-section-5 .u-form-group-4 {
         width: 100%;
     }
+
+    .little {
+        width: 25%;
+        height: 25%;
+    }
 }
 
