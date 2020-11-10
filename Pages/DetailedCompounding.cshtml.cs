@@ -35,15 +35,21 @@ namespace Corporate_Finance.Pages
             }
             else
             {
+               
                 double realInterest = R / payments;
                 double realPeriods = payments * N;
-                double r = R / 100;
-                CalcInflow calcInflow = new CalcInflow(C, r, N, payments);
-                rett = calcInflow.res;
-                EAR = Convert.ToString(calcInflow.EAR);
+                
+                CalcInflow calcInflow = new CalcInflow(C, R, N, payments);
+                double a = Math.Round(Convert.ToDouble(calcInflow.res),2);
+                rett = Convert.ToString(a);
+
+                EAR = Convert.ToString(Math.Round(calcInflow.EAR,6));
+                double y;
                 for (int i = 1; i <= realPeriods; i++)
                 {
-
+                    y = C * Math.Pow((1 + realInterest), i);
+                    y = Math.Round(y, 4);
+                    ca.Add(new perPeriod(i, y));
 
                 }
 
