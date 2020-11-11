@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "5LepARffVj8/w4csda2j4ZtevLyK64NelyORcl9oeQ9ZbtTuERkFStX8dwY2bv9L8ZQs0CeXYy2uZ99Q/mIOSA==",
+  "dgSpecHash": "pYLF7/xukSCRQ0dSW51WYHkoQqvWd2C8dx3lcU42uNdQrmcZVVe854noHiU8wlOPwOD2hLuCclAdpnqmp3jUpA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\kiril\\source\\repos\\Corporate Finance\\Corporate Finance\\Corporate Finance.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "C:\\Users\\kiril\\source\\repos\\Corporate Finance\\CorporateFinance\\CorporateFinance.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\kiril\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.10.9\\microsoft.visualstudio.azure.containers.tools.targets.1.10.9.nupkg.sha512"
+  ],
   "logs": []
 }

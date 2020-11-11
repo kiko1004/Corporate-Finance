@@ -5,7 +5,7 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 
-namespace Corporate_Finance.Pages
+namespace CorporateFinance.Pages
 {
     public class DetailedCompoundingModel : PageModel
     {

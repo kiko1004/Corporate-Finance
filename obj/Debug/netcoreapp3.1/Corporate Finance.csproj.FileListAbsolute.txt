@@ -12,8 +12,6 @@ C:\Users\kiril\source\repos\Corporate Finance\Corporate Finance\bin\Debug\netcor
 C:\Users\kiril\source\repos\Corporate Finance\Corporate Finance\obj\Debug\netcoreapp3.1\Corporate Finance.csprojAssemblyReference.cache
 C:\Users\kiril\source\repos\Corporate Finance\Corporate Finance\obj\Debug\netcoreapp3.1\Corporate Finance.AssemblyInfoInputs.cache
 C:\Users\kiril\source\repos\Corporate Finance\Corporate Finance\obj\Debug\netcoreapp3.1\Corporate Finance.AssemblyInfo.cs
-C:\Users\kiril\source\repos\Corporate Finance\Corporate Finance\obj\Debug\netcoreapp3.1\Corporate Finance.csproj.CoreCompileInputs.cache
-C:\Users\kiril\source\repos\Corporate Finance\Corporate Finance\obj\Debug\netcoreapp3.1\Corporate Finance.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\kiril\source\repos\Corporate Finance\Corporate Finance\obj\Debug\netcoreapp3.1\Corporate Finance.RazorAssemblyInfo.cache
 C:\Users\kiril\source\repos\Corporate Finance\Corporate Finance\obj\Debug\netcoreapp3.1\Corporate Finance.RazorAssemblyInfo.cs
 C:\Users\kiril\source\repos\Corporate Finance\Corporate Finance\obj\Debug\netcoreapp3.1\Corporate Finance.TagHelpers.input.cache
@@ -36,3 +34,5 @@ C:\Users\kiril\source\repos\Corporate Finance\Corporate Finance\obj\Debug\netcor
 C:\Users\kiril\source\repos\Corporate Finance\Corporate Finance\obj\Debug\netcoreapp3.1\Corporate Finance.genruntimeconfig.cache
 C:\Users\kiril\source\repos\Corporate Finance\Corporate Finance\obj\Debug\netcoreapp3.1\Corporate Finance.csproj.CopyComplete
 C:\Users\kiril\source\repos\Corporate Finance\Corporate Finance\obj\Debug\netcoreapp3.1\Razor\Pages\DetailedCompounding.cshtml.g.cs
+C:\Users\kiril\source\repos\Corporate Finance\Corporate Finance\obj\Debug\netcoreapp3.1\Corporate Finance.csproj.CoreCompileInputs.cache
+C:\Users\kiril\source\repos\Corporate Finance\Corporate Finance\obj\Debug\netcoreapp3.1\Corporate Finance.MvcApplicationPartsAssemblyInfo.cache
