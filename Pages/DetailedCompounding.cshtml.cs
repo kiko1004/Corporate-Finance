@@ -10,7 +10,7 @@ namespace CorporateFinance.Pages
     public class DetailedCompoundingModel : PageModel
     {
         public List<perPeriod> ca = new List<perPeriod> {
-            new perPeriod(0, 0)
+            new perPeriod(0, 0, 0)
             };
 
         [BindProperty]
@@ -45,11 +45,16 @@ namespace CorporateFinance.Pages
 
                 EAR = Convert.ToString(Math.Round(calcInflow.EAR,6));
                 double y;
+                int year;
+                int currentPayment;
                 for (int i = 1; i <= realPeriods; i++)
                 {
                     y = C * Math.Pow((1 + realInterest), i);
                     y = Math.Round(y, 4);
-                    ca.Add(new perPeriod(i, y));
+                    year = (int)Math.Floor(Convert.ToDouble(i/payments));
+                    year =year + 1;
+                    currentPayment = (i + payments)%payments;
+                    ca.Add(new perPeriod(currentPayment, y, year));
 
                 }
 

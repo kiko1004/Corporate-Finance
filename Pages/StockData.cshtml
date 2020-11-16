@@ -1,0 +1,52 @@
+﻿@page
+@model CorporateFinance.StockDataModel
+@{
+    ViewData["Title"] = "Detailed Compounding";
+}
+
+<form method="post">
+    <div class="form-group">
+        <label for="Ticker">Ticker</label>
+        <input type="text" class="form-control" id="Ticker" name="Ticker" placeholder="MSFT">
+    </div>
+
+    <button type="submit" class="btn btn-primary">Submit</button>
+</form>
+
+@Html.ActionLink("Export Data","DownloadReport")
+
+
+<table class="table">
+    <thead>
+        <tr>
+            <th scope="col">Date</th>
+            <th scope="col">Open</th>
+            <th scope="col">High</th>
+            <th scope="col">Low</th>
+            <th scope="col">Close</th>
+            <th scope="col">Volume</th>
+
+
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var d in @Model.monthlyPrices)
+        {
+        <tr>
+            <td>@d.Timestamp</td>
+            <td>@d.Open</td>
+            <td>@d.High</td>
+            <td>@d.Low</td>
+            <td>@d.Close</td>
+            <td>@d.Volume</td>
+
+
+
+        </tr>
+
+
+        }
+
+    </tbody>
+</table>
+

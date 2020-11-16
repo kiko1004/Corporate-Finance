@@ -1,0 +1,54 @@
+﻿@page
+@model CorporateFinance.BondsModel
+@{
+    ViewData["Title"] = "Bond Calculations";
+}
+<h1>Simple Bond Present Value</h1>
+<form method="post">
+    <div class="form-group">
+        <label for="ParValue">Par Value</label>
+        <input type="text" class="form-control" id="ParValue" name="ParValue">
+        <small id="emailHelp" class="form-text text-muted">
+            a.k.a. Face Value, The principal amount of a bond that is repaid at the end of the term.
+        </small>
+    </div>
+    <div class="form-group">
+        <label for="CouponRate">Coupon Rate (1% = 0.01)</label>
+        <input type="text" class="form-control" id="CouponRate" name="CouponRate">
+        <small id="emailHelp" class="form-text text-muted">
+            The annual coupon divided by the face value of a bond.
+        </small>
+    </div>
+    <div class="form-group">
+        <label for="DiscountRate">Dicount Rate/Yield to maturity (1% = 0.01)</label>
+        <input type="text" class="form-control" id="DiscountRate" name="DiscountRate">
+        <small id="emailHelp" class="form-text text-muted">
+            Rate of an alternative investment.
+        </small>
+    </div>
+    <div class="form-group">
+        <label for="YearsToMaturity">Years to maturity</label>
+        <input type="text" class="form-control" id="YearsToMaturity" name="YearsToMaturity">
+
+    </div>
+
+    <button type="submit" class="btn btn-primary">Submit</button>
+</form>
+<br />
+
+
+<h2>Bond Present Value:</h2>
+<div class="d-inline p-2 bg-primary text-white">
+    $@Model.BondValue
+</div>
+
+<h2>Present value of the final payment:</h2>
+
+<div class="d-inline p-2 bg-primary text-white">
+    $@Model.ParPV
+</div>
+
+<h2>Annuity present value:</h2>
+<div class="d-inline p-2 bg-primary text-white">
+    $@Model.AnuPV
+</div>

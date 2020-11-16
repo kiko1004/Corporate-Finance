@@ -14,15 +14,15 @@
 
     </div>
     <div class="form-group">
-        <label>% return per period</label>
-        <input type="text" class="form-control" name="R" placeholder="R" id="exampleInputPassword1">
+        <label>% return per year (APR)</label>
+        <input type="text" class="form-control" name="R" placeholder="R, 0.01 = 1%" id="exampleInputPassword1">
     </div>
     <div class="form-group">
-        <label>Num of payments per period</label>
+        <label>Num of payments per year</label>
         <input type="text" class="form-control" name="payments" placeholder="Number of payments per period" id="exampleInputPassword1">
     </div>
     <div class="form-group">
-        <label>Number of periods</label>
+        <label>Number of years</label>
         <input type="text" class="form-control" name="N" placeholder="N" id="exampleInputPassword1">
     </div>
 
@@ -35,8 +35,9 @@
 <table class="table">
     <thead>
         <tr>
-            <th scope="col">#</th>
-            <th scope="col">Result</th>
+            <th scope="col">Year</th>
+            <th scope="col">Payment in year</th>
+            <th scope="col">Amount</th>
             
             
         </tr>
@@ -45,8 +46,9 @@
         @foreach (var d in @Model.ca)
         {
             <tr>
+                <td>@d.year</td>
                 <td>@d.index</td>
-                <td>@d.res</td>
+                <td>$@d.res</td>
                 
             </tr>
 

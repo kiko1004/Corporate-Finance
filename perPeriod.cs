@@ -9,11 +9,19 @@ namespace CorporateFinance
     {
         public int index { get; set; }
         public double res { get; set; }
+        public int year { get; set; }
 
+        public perPeriod(int i, double r, int year)
+        {
+            index = i;
+            res = r;
+            this.year = year;
+        }
         public perPeriod(int i, double r)
         {
             index = i;
             res = r;
+            
         }
     }
 }
