@@ -20,7 +20,6 @@ C:\Users\kiril\source\repos\Corporate Finance\CorporateFinance\obj\Debug\netcore
 C:\Users\kiril\source\repos\Corporate Finance\CorporateFinance\obj\Debug\netcoreapp3.1\CorporateFinance.pdb
 C:\Users\kiril\source\repos\Corporate Finance\CorporateFinance\bin\Debug\netcoreapp3.1\appsettings.Development.json
 C:\Users\kiril\source\repos\Corporate Finance\CorporateFinance\bin\Debug\netcoreapp3.1\appsettings.json
-C:\Users\kiril\source\repos\Corporate Finance\CorporateFinance\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
 C:\Users\kiril\source\repos\Corporate Finance\CorporateFinance\bin\Debug\netcoreapp3.1\CorporateFinance.exe
 C:\Users\kiril\source\repos\Corporate Finance\CorporateFinance\bin\Debug\netcoreapp3.1\CorporateFinance.deps.json
 C:\Users\kiril\source\repos\Corporate Finance\CorporateFinance\bin\Debug\netcoreapp3.1\CorporateFinance.runtimeconfig.json
@@ -34,10 +33,10 @@ C:\Users\kiril\source\repos\Corporate Finance\CorporateFinance\obj\Debug\netcore
 C:\Users\kiril\source\repos\Corporate Finance\CorporateFinance\obj\Debug\netcoreapp3.1\staticwebassets\CorporateFinance.StaticWebAssets.xml
 C:\Users\kiril\source\repos\Corporate Finance\CorporateFinance\obj\Debug\netcoreapp3.1\CorporateFinance.genruntimeconfig.cache
 C:\Users\kiril\source\repos\Corporate Finance\CorporateFinance\obj\Debug\netcoreapp3.1\CorporateFinance.csproj.CopyComplete
-C:\Users\kiril\source\repos\Corporate Finance\CorporateFinance\bin\Debug\netcoreapp3.1\Properties\ServiceDependencies\CorporateFinance - Web Deploy\profile.arm.json
 C:\Users\kiril\source\repos\Corporate Finance\CorporateFinance\obj\Debug\netcoreapp3.1\Razor\Pages\fincators.cshtml.g.cs
 C:\Users\kiril\source\repos\Corporate Finance\CorporateFinance\obj\Debug\netcoreapp3.1\Razor\Pages\StockData.cshtml.g.cs
 C:\Users\kiril\source\repos\Corporate Finance\CorporateFinance\bin\Debug\netcoreapp3.1\ServiceStack.Text.dll
 C:\Users\kiril\source\repos\Corporate Finance\CorporateFinance\obj\Debug\netcoreapp3.1\CorporateFinance.csproj.CoreCompileInputs.cache
 C:\Users\kiril\source\repos\Corporate Finance\CorporateFinance\obj\Debug\netcoreapp3.1\CorporateFinance.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\kiril\source\repos\Corporate Finance\CorporateFinance\obj\Debug\netcoreapp3.1\Razor\Pages\Bonds.cshtml.g.cs
+C:\Users\kiril\source\repos\Corporate Finance\CorporateFinance\obj\Debug\netcoreapp3.1\scopedcss\bundle\CorporateFinance.styles.css

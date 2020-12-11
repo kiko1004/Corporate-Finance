@@ -20,18 +20,18 @@ namespace CorporateFinance
         };
         public IActionResult OnGet()
         {
-            DownloadReport();
+            
             return Page();
         }
 
         
-        public FileResult DownloadReport()
+        public ActionResult DownloadReport()
         {
             
             var sb = new StringBuilder();
             foreach (var data in monthlyPrices)
             {
-                sb.AppendLine(data.Timestamp + "," + data.Open + ","+data.High+", "+data.Low+", "+data.Volume);
+                sb.AppendLine(Convert.ToString(data.Timestamp) + ", " + data.Open + ", "+data.High+", "+data.Low+", "+data.Volume);
             }
             return File(new UTF8Encoding().GetBytes(sb.ToString()), "text/csv", "export.csv");
         }
