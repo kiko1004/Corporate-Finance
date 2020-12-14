@@ -40,3 +40,4 @@ C:\Users\kiril\source\repos\Corporate Finance\CorporateFinance\obj\Debug\netcore
 C:\Users\kiril\source\repos\Corporate Finance\CorporateFinance\obj\Debug\netcoreapp3.1\CorporateFinance.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\kiril\source\repos\Corporate Finance\CorporateFinance\obj\Debug\netcoreapp3.1\Razor\Pages\Bonds.cshtml.g.cs
 C:\Users\kiril\source\repos\Corporate Finance\CorporateFinance\obj\Debug\netcoreapp3.1\scopedcss\bundle\CorporateFinance.styles.css
+C:\Users\kiril\source\repos\Corporate Finance\CorporateFinance\obj\Debug\netcoreapp3.1\Razor\Pages\StockValuation.cshtml.g.cs
